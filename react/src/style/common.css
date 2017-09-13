@@ -1,0 +1,61 @@
+/*公共样式类*/
+/*全局会用到的样式*/
+html,body{
+    height: 100%;
+    width: 100%;
+}
+html,body,div,h1,ul,li{
+    padding: 0;
+    margin: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration:none;
+}
+
+a:hover{
+    color: crimson;
+    font-weight: 700;
+}
+
+
+html{
+    min-width: 320px;
+}
+
+
+
+
+html {
+    font-size : 20px;
+}
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important;
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important;
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important;
+    }
+}

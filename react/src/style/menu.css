@@ -1,0 +1,84 @@
+/*.menu {*/
+    /*width: 215px;*/
+    /*height: 100%;*/
+    /*background-color: blue;*/
+/*}*/
+.xn-left{
+    font: 600 14px Arial;
+    height: 100%;
+    width: 215px;
+    color: #a7b1c2;
+    background-color: rgb(47, 64, 80);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    transition: all 0.6s;
+}
+.list-group {
+    margin: 0px;
+}
+.list-group:nth-child(1) {
+    padding-top: 10px;
+}
+.xn-left .list-group .list-group-item{
+    position: relative;
+    padding-left: 30px;
+    border: none;
+    background-color: rgb(47, 64, 80);
+    overflow: hidden;
+
+}
+.xn-left > ul.list-group ul{
+    margin-top: 5px;
+    /*display: none;*/
+    /*transition: all 1s;*/
+}
+.xn-left > ul.list-group ul li{
+
+    background-color: rgb(47, 64, 110);
+}
+.xn-left > ul.list-group ul.list-group .list-group-item {
+    padding: 0px;
+    width: 170px;
+    height: 30px;
+    /*background-color: red;*/
+}
+.xn-left > ul.list-group .list-group-item a{
+    box-sizing: border-box;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ccc;
+}
+.xn-left > ul.list-group ul.xn-btn-active::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 5px;
+    height: 1000px;
+    background-color: green;
+}
+.xn-left > ul.list-group ul.xn-btn-active li{
+    background-color: rgb(40,50,60);
+}
+.xn-active{
+    color: #fff;
+    background-color: rgb(40,50,60);
+}
+.xn-left .list-group .list-group-item span.icon-left{
+    position: absolute;
+    left: 12px;
+    top: 15px;
+    font-size: 12px;
+}
+.xn-left .list-group .list-group-item span.icon-right{
+    position: absolute;
+    left: 180px;
+    top: 12px;
+    font-size: 12px;
+}
